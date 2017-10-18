@@ -1,0 +1,184 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 13}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "subtotal_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "4424F445-BDA0-47D8-9CB0-49BD0143C678",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Subtotal: $0.00",
+          "font_size" : 18,
+          "font_name" : "AppleSDGothicNeo-Light"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{16, 53}, {250, 62}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "total_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "7DAF6F0E-F71C-4CA3-99CF-45EA5D00CC2E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Total: $00.00",
+          "font_size" : 35,
+          "font_name" : "AppleSDGothicNeo-SemiBold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{83, 406}, {150, 75}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Large ($6.50)",
+          "uuid" : "15BFBEC9-93C3-4018-A0A5-E127F22CF212",
+          "class" : "Button",
+          "corner_radius" : 37,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_color" : "RGBA(0.709906,0.709906,0.709906,1.000000)",
+          "name" : "large_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{308, 406}, {150, 75}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Extra Large($10.00)",
+          "uuid" : "15BFBEC9-93C3-4018-A0A5-E127F22CF212",
+          "class" : "Button",
+          "corner_radius" : 37,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_color" : "RGBA(0.707547,0.707547,0.707547,1.000000)",
+          "name" : "extra_large_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{83, 273}, {375, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "action" : "calculate_cost_of_toppings",
+          "frame" : "{{170, 253}, {200, 34}}",
+          "uuid" : "4E2CD477-1EAA-40B7-855A-E8A681743FE5",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "toppings_slider"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{179, 175}, {180, 41}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "number_of_toppings_instruction",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "CAD3B2C2-591B-4388-8331-DB8DA8737B9E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Number of Toppings  ",
+          "font_size" : 21,
+          "font_name" : "AppleSDGothicNeo-Light"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{179, 224}, {180, 41}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "AppleSDGothicNeo-SemiBold",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "CAD3B2C2-591B-4388-8331-DB8DA8737B9E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "0",
+          "name" : "number_of_toppings_label",
+          "font_size" : 44
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{179, 357}, {180, 41}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 27,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "CAD3B2C2-591B-4388-8331-DB8DA8737B9E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Size",
+          "name" : "size_label",
+          "font_name" : "AppleSDGothicNeo-Light"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{165, 13}, {92, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "hst_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "088D6BA1-1CE3-460B-8798-C87B34228E94",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "HST: $0.00",
+          "font_size" : 18,
+          "font_name" : "AppleSDGothicNeo-Light"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
